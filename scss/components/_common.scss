@@ -1,0 +1,75 @@
+.logo {
+    font-family: $font-logo;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19
+}
+
+.logo-web {
+    color: $accent-color;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+
+    color: $title-text-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.85;
+    text-align: center;
+}
+
+.button-primary {
+    display: inline-block;
+    min-width: 200px;
+    border-radius: 4px;
+    padding: 10px 32px;
+    border: 1px solid transparent;
+
+    background-color: $accent-color;
+    color: $primary-white-color;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container-portfolio {
+    width: 1200px;
+    padding-top: 93px;
+    padding-bottom: 94px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto
+}
